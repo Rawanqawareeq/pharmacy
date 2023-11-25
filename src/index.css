@@ -1,0 +1,54 @@
+:root{
+   --main-colors:#00008B;
+   --sec-color:#ADD8E6;
+}
+.navbar{
+   
+}
+.navbar img{
+    height: 60px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show  {
+   border-radius: 16px ;
+   background-color: var(--sec-color);
+   padding: 8px 20px;
+   color: white;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: white;
+    background-color: #ADD8E6;
+}
+.navbar  .nav-link{
+    color:var(--main-colors) ;
+}
+.register{
+    background-image: url(img/backgroundregister.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+.register .content{
+    text-align: center;
+    font-size: large ;
+    padding: 30px;
+    color: var(--main-colors);
+    text-transform: capitalize;
+    top: 100px;
+    position: absolute;
+    width: 35%;
+    background-color: #ADD8E6;
+}
+.register .content h2{
+    border-bottom: 1px solid var(--main-colors);
+    text-transform: uppercase;
+    
+}
+.register .submit {
+    background-color: var(--main-colors);
+   color: white;
+}
+.register .submit:hover {
+    background-color: gray;
+}
