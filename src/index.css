@@ -3,7 +3,7 @@
    --sec-color:#ADD8E6;
 }
 .navbar{
-   
+   position: sticky;
 }
 .navbar img{
     height: 60px;
@@ -11,7 +11,7 @@
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show  {
    border-radius: 16px ;
    background-color: var(--sec-color);
-   padding: 8px 20px;
+ 
    color: white;
 }
 .dropdown-item:focus, .dropdown-item:hover {
@@ -26,8 +26,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
-    
+    position: relative;   
 }
 .register .content{
     text-align: center;
